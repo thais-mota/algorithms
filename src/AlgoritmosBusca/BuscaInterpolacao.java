@@ -11,7 +11,7 @@ public class BuscaInterpolacao {
     
     */
     
-    public static int BuscaInterpolacao(int[] v, int k){
+    public int BuscaInterpolacao(int[] v, int k){
         
         int inicio = 0;
         int fim = v.length - 1;

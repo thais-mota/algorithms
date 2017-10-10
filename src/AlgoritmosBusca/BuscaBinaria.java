@@ -13,7 +13,7 @@ public class BuscaBinaria {
     
     */
     
-    public static int buscaBinariaIterativa(int[] v, int k){
+    public int buscaBinariaIterativa(int[] v, int k){
         
         int inicio = 0;
         int fim = v.length;

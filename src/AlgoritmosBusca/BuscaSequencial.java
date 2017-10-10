@@ -12,7 +12,7 @@ public class BuscaSequencial {
         Se os elementos não estiverem ordenados, o único método de busca é o Sequencial.
     */
       
-    public static int buscaSequencialIterativa(int[] v, int k) {
+    public int buscaSequencialIterativa(int[] v, int k) {
 
         for (int i = 0; i < v.length; i++) {
             if (k == v[i]) {
@@ -24,7 +24,7 @@ public class BuscaSequencial {
 
     }
     
-    public static int buscaSequencialOrdenado(int[] v, int k){
+    public int buscaSequencialOrdenado(int[] v, int k){
         
         for(int i = 0; i < v.length || v[i] >= k; i++){
             if(v[i] == k){

@@ -9,6 +9,8 @@ public class MergeSort {
             Divida o vetor em vetores menores até que os vetores tenham comprimento 1.
             Agrupe esses vetores colocando-os em ordem.
     
+            O(n log n)
+    
      */
     
     //Recursivo
